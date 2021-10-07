@@ -21,6 +21,6 @@ jobs:
         with:
           username: ${{ secrets.REGISTRY_USER }}
           password: ${{ secrets.REGISTRY_TOKEN }}
-        run: | 
+      - run: | 
           docker build . -t grinchub/e-filing-test:nginx-fpm-docker
           docker push grinchub/e-filing-test:nginx-fpm-docker
