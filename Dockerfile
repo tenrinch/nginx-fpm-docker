@@ -1,4 +1,4 @@
-#base image
+#base image nginx laest
 FROM nginx:latest
 
 ENV NGINX_ROOT /var/www/html/subjectfile/public
